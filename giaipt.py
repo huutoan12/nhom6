@@ -16,5 +16,6 @@ if det==0:
 else:
     x=np.linalg.solve(a,b)
     print(x)
+    print("hello")
 
 
