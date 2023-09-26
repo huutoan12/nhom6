@@ -56,7 +56,6 @@ mina = diemA.min()
 z, = np.where(diemA == mina)
 print('Lớp có nhiều điểm A là {0} có {1} sv đạt điểm A'.format(in_data[i,0],maxa))
 print('Lớp có ít điểm A là {0} có {1} sv đạt điểm A'.format(in_data[z,0],mina))
-
 plt.plot(range(len(diemA)),diemA,'r-',label="Diem A")
 plt.plot(range(len(diemBc)),diemBc,'g-',label="Diem B +")
 plt.plot(range(len(diemB)),diemB,'b-',label="Diem B")
